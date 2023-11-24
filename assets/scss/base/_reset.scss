@@ -1,0 +1,145 @@
+:root {
+    --dark1: #2b2b2b;
+    --color1: #E7E3E1;
+    --color2: #E7E3E1;
+    --color3: #BC9465;
+}
+
+:root.dark {
+    --dark1: #e7e3e1;
+    --color1: #2b2b2b;
+    --color2: #573A31;
+    --color3: #e7e3e1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+:root {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    cursor: default;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    -moz-tab-size: 4;
+    tab-size: 4
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: var(--dark1);
+    color: var(--color1);
+    transition: background-color ease 0.5s,
+        color ease 0.5s;
+    line-height: 1.4;
+    font-size: 16px;
+    font-family: $font-en;
+}
+
+.link-more {
+    text-transform: uppercase;
+    text-decoration: unset;
+    border-radius: 100px;
+    font-size: 16px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+    border: 2px solid var(--color2);
+    color: var(--color2);
+    outline-offset: -1px;
+    background-color: transparent;
+    padding: 16px 32px;
+    z-index: 1;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: var(--color2);
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform .3s;
+    }
+
+    &:hover {
+        &::after {
+            transform-origin: left;
+            transform: scaleX(1);
+        }
+
+        span {
+            color: var(--color3);
+            z-index: 10;
+
+            &::before {
+                background-color: var(--color3);
+            }
+        }
+    }
+
+    span {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        gap: 16px;
+
+        &::before {
+            width: 40px;
+            content: "";
+            height: 2px;
+            display: inline-block;
+            background-color: var(--color2);
+            transition: all ease 0.3s;
+        }
+    }
+}

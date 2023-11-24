@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinea - Vinos de la Ribera del Duero</title>
+    <meta property="og:type" content="Website" />
+    <meta property="og:title" content="Pinea - Vinos de la Ribera del Duero" />
+    <meta property="og:url" content="https://light9639.github.io/Pinea/" />
+    <meta property="og:description"
+        content="Descubre Pinea, una bodega que nace tras un sueño: crear uno de los mejores vinos del mundo." />
+    <meta property="og:image" content="https://pinea.wine/wp-content/uploads/2023/08/arrow-hero.svg" />
+    <meta property="og:site_name" content="Pinea" />
+
+    <link rel="icon" href="https://pinea.wine/wp-content/uploads/2023/09/logo-pinea-simbolo.svg" sizes="32x32" />
+    <link rel="icon" href="https://pinea.wine/wp-content/uploads/2023/09/logo-pinea-simbolo.svg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://pinea.wine/wp-content/uploads/2023/09/logo-pinea-simbolo.svg" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="gnb">
+                <button class="btn-side">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                    <span>menu</span>
+                </button>
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="./assets/images/logo-pinea.svg" alt="Pinea로고">
+                    </a>
+                </h1>
+                <a href="#" class="link-more">
+                    <span>club</span>
+                </a>
+                <div class="side-nav">
+                    <div class="language">
+                        <span class="on">
+                            <a href="#">ES</a>
+                        </span>
+                        <span>
+                            <a href="#">EN</a>
+                        </span>
+                    </div>
+                    <ul class="list">
+                        <li class="item">
+                            <a href="#" class="title">Inicio</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="title">Identidad</a>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="title">Terroir</a>
+                        </li>
+                        <li class="item">
+                            <button class="title">
+                                Vinos
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </button>
+                            <ul class="sub">
+                                <li><a href="#">PINEA</a></li>
+                                <li><a href="#">17 by PINEA</a></li>
+                                <li><a href="#">PSOUL</a></li>
+                                <li><a href="#">KORDE Rosado</a></li>
+                                <li><a href="#">KORDE Blanco</a></li>
+                            </ul>
+                        </li>
+                        <li class="item">
+                            <a href="#" class="title">Club</a>
+                        </li>
+                    </ul>
+                    <button class="close">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-plus-lg"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main class="container main">
+            <section class="inner1">
+                <h2 class="blind">PINEA 영상페이지</h2>
+                <div class="bg-frame">
+                    <video src="./assets/images/HOME_WEB_PINEA.mp4" muted autoplay loop></video>
+                </div>
+            </section>
+            <div class="bottom-arrow" data-parallax-y="250px">
+                <img src="./assets/images/arrow-hero.svg" alt="아래로이동">
+            </div>
+            <section class="inner2">
+                <div class="inner">
+                    <h2 class="headline" data-parallax-y="250px">
+                        <span class="brown-color">SIGLOS</span> DE HISTORIA
+                    </h2>
+                    <div class="img-wrap" data-parallax-y="150px">
+                        <img src="./assets/images/Siglos-de-Historia.webp" alt="PINEA 나무이미지">
+                    </div>
+                </div>
+            </section>
+            <div class="inner3">
+                <div class="inner">
+                    <h2 class="headline" data-parallax-y="100px"><span class="brown-color">AÑOS</span> DE CRIANZA</h2>
+                    <section class="area-top">
+                        <div class="img-content" data-parallax-y="250px">
+                            <img src="./assets/images/Anos-de-crianza.webp" alt="PINEA 제품이미지">
+                        </div>
+                        <div class="empty"></div>
+                        <h3 class="headline"><span class="brown-color">MINUTOS</span> DE PLACER
+                        </h3>
+                    </section>
+                    <section class="area-middle">
+                        <div class="empty"></div>
+                        <div class="img-content" data-parallax-y="250px">
+                            <img src="./assets/images/minutos-placer-pinea.webp" alt="PINEA 와인이미지">
+                        </div>
+                        <h3 class="headline" data-parallax-y="-400px">
+                            <span class="brown-color">MOMEN­TOS</span> QUE DURAN PARA <span
+                                class="brown-color">SIEMPRE</span>
+                        </h3>
+                    </section>
+                    <section class="area-bottom">
+                        <div class="empty"></div>
+                        <h3 class="headline">
+                            ESTO ES PINEA
+                        </h3>
+                        <div class="img-content" data-parallax-y="-250px">
+                            <img src="./assets/images/Esto-es-Pinea.webp" alt="PINEA 나무이미지">
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="inner-wrapper">
+                <section class="inner4">
+                    <div class="group-txt">
+                        <div class="txt-area">
+                            <h2 class="headline" data-parallax-x="-100px">
+                                La historia de Pinea se forja con un propósito: <span class="brown-color">crear uno de
+                                    los</span><br class="">
+                                <span class="brown-color">mejores vinos del mundo</span> y reflejar la mejor expresión
+                                de la
+                                Ribera
+                                del
+                                Duero.
+                            </h2>
+                            <a href="#" class="link-more">
+                                <span>DESCUBRE LA HISTORIA</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="inner5">
+                    <div class="inner">
+                        <div class="text-area" data-parallax-y="100px">
+                            <h2 class="headline">
+                                Vinos de autor elaborados con <span class="brown-color">alma, visión y profundo
+                                    respeto</span>
+                            </h2>
+                            <a href="#" class="link-more">
+                                <span>CONOCE TODOS LOS VINOS</span>
+                            </a>
+                        </div>
+                        <div class="swiper">
+                            <div class="navigation-buttons">
+                                <button class="btn-prev" disabled="" aria-label="Retroceder">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="1" y="1" width="56" height="56" rx="29" stroke="#C0C2C9"
+                                            stroke-width="2">
+                                        </rect>
+                                        <path
+                                            d="M40.4531 30C40.4531 30.6562 39.9375 31.1719 39.3281 31.1719H23.3906L29.625 37.0781C30.0938 37.5 30.0938 38.25 29.6719 38.6719C29.25 39.1406 28.5469 39.1406 28.0781 38.7188L19.8281 30.8438C19.5938 30.6094 19.5 30.3281 19.5 30C19.5 29.7188 19.5938 29.4375 19.8281 29.2031L28.0781 21.3281C28.5469 20.9062 29.25 20.9062 29.6719 21.375C30.0938 21.7969 30.0938 22.5469 29.625 22.9688L23.3906 28.875H39.3281C39.9844 28.875 40.4531 29.3906 40.4531 30Z"
+                                            fill="#C0C2C9"></path>
+                                    </svg>
+                                </button>
+                                <button class="btn-next" aria-label="Avanzar">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="1" y="1" width="56" height="56" rx="29" stroke="#C0C2C9"
+                                            stroke-width="2">
+                                        </rect>
+                                        <path
+                                            d="M40.4531 30C40.4531 30.6562 39.9375 31.1719 39.3281 31.1719H23.3906L29.625 37.0781C30.0938 37.5 30.0938 38.25 29.6719 38.6719C29.25 39.1406 28.5469 39.1406 28.0781 38.7188L19.8281 30.8438C19.5938 30.6094 19.5 30.3281 19.5 30C19.5 29.7188 19.5938 29.4375 19.8281 29.2031L28.0781 21.3281C28.5469 20.9062 29.25 20.9062 29.6719 21.375C30.0938 21.7969 30.0938 22.5469 29.625 22.9688L23.3906 28.875H39.3281C39.9844 28.875 40.4531 29.3906 40.4531 30Z"
+                                            fill="#C0C2C9"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-wrap">
+                                            <img class="off" src="./assets/images/pinea-botella-off-600px.webp"
+                                                alt="Pinea 와인">
+                                            <img class="on" src="./assets/images/pinea-botella-on-600px.webp"
+                                                alt="Pinea 와인">
+                                        </div>
+                                        <strong>Pinea</strong>
+                                        <p>Una expresión rotunda de nuestro terroir, que combina fuerza, estructura y
+                                            complejidad en un delicado equilibrio.</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-wrap">
+                                            <img class="off" src="./assets/images/pinea-17-off-600px.webp"
+                                                alt="Pinea 와인 17">
+                                            <img class="on" src="./assets/images/pinea-17-on-600px.png"
+                                                alt="Pinea 와인 17">
+                                        </div>
+                                        <strong>17 by pinea</strong>
+                                        <p>Elaborado con una gran selección de uvas de nuestro Dominio, 17 refleja toda
+                                            la
+                                            belleza del Tempranillo.</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-wrap">
+                                            <img class="off" src="./assets/images/pinea-psoul-off-600px.webp"
+                                                alt="Pinea 와인 Psoul">
+                                            <img class="on" src="./assets/images/pinea-psoul-on-600px.webp"
+                                                alt="Pinea 와인 Psoul">
+                                        </div>
+                                        <strong>Psoul (Edición limitada)</strong>
+                                        <p>Si PINEA es el corazón, SOUL encarna el “alma” del proyecto. Fino, vibrante,
+                                            infinito.</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-wrap">
+                                            <img class="off" src="./assets/images/pinea-korde-blanco-off-600px.webp"
+                                                alt="Pinea Korde blanco">
+                                            <img class="on" src="./assets/images/pinea-korde-blanco-on-600px.webp"
+                                                alt="Pinea Korde blanco">
+                                        </div>
+                                        <strong>Korde blanco</strong>
+                                        <p>Un vino que sientes antes de alzar la copa. Su cremosidad se convierte en una
+                                            caricia
+                                            en tu boca.</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="img-wrap">
+                                            <img class="off" src="./assets/images/pinea-korde-rosado-off-600px.webp"
+                                                alt="Pinea Korde Rosado">
+                                            <img class="on" src="./assets/images/pinea-korde-rosado-on-600px.webp"
+                                                alt="Pinea Korde Rosado">
+                                        </div>
+                                        <strong>Korde Rosado</strong>
+                                        <p>Un clarete que reinterpretala tradición más genuina de la Ribera. Pura
+                                            expresividad y
+                                            frescura.</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div data-theme-offset>
+                <section class="inner6">
+                    <div class="inner">
+                        <div class="title-area">
+                            <h2 class="headline">EL VALOR DEL <span class="brown-color">TERROIR</span></h2>
+                        </div>
+                        <div class="txt-area">
+                            <p class="Top-text">Un vino tan excepcional sólo puede producirse en un lugar único</p>
+                            <p class="middle-text">El Dominio de Pinea se ubica en la zona norte de la Ribera del Duero
+                                (España), donde la
+                                belleza
+                                de la
+                                uva Tempranillo
+                                deslumbra como en ninguna otra parte del mundo.</p>
+                            <a href="#" class="link-more">
+                                <span>Descubre el dominio de <br>pinea</span>
+                            </a>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="img-area">
+                            <div class="img-wrap">
+                                <div class="content">
+                                    <img src="./assets/images/pinea-mapa-01.webp" alt="pinea 지도1">
+                                </div>
+                                <div class="content">
+                                    <img src="./assets/images/pinea-mapa-02.webp" alt="pinea 지도2">
+                                </div>
+                                <div class="content">
+                                    <img src="./assets/images/pinea-mapa-03.webp" alt="pinea 지도3">
+                                </div>
+                                <div class="content">
+                                    <img src="./assets/images/pinea-mapa-04.webp" alt="pinea 지도4">
+                                </div>
+                            </div>
+                            <div class="btn-wrap">
+                                <button>ESPAÑA (EUROPA)</button>
+                                <button>CASTILLA Y LEÓN</button>
+                                <button class="orange">RIBERA DEL DUERO</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="inner7">
+                    <div class="title-wrap" data-parallax-y="100px">
+                        <h2 class="headline">El vino representa una cultura, y Pinea <span class="brown-color">una forma
+                                de
+                                vivir.</span></h2>
+                    </div>
+                    <div class="txt-area" data-parallax-y="100px">
+                        <p class="desc">Todo lo que hacemos en Pinea nace desde el corazón. El vino es para nosotros un
+                            destino
+                            de vida, un
+                            territorio emocional
+                            en el que construimos nuestra historia.</p>
+                        <a href="#" class="link-more">
+                            <span>DESCUBRE EL CLUB PINEA</span>
+                        </a>
+                    </div>
+                    <div class="empty"></div>
+                    <div class="img-wrap" data-parallax-x="200px">
+                        <img src="./assets/images/club-home-pinea-1024x576.webp" alt="Pinea 술통 이미지">
+                    </div>
+                </section>
+                <section class="inner8">
+                    <h2 class="headline" data-parallax-x="-100px">Premiados por <span class="brown-color">nuestra
+                            determinación.</span></h2>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">Wine Spectator</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">James Suckling</a>
+                            </div>
+                            <div class="swiper-slide">Decanter</div>
+                            <div class="swiper-slide">Wine Enthusiast</div>
+                            <div class="swiper-slide">Robert Parker</div>
+                        </div>
+                        <div class="navigation-buttons">
+                            <button class="btn-prev" disabled="" aria-label="Retroceder">
+                                <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1" y="1" width="56" height="56" rx="29" stroke="#C0C2C9" stroke-width="2">
+                                    </rect>
+                                    <path
+                                        d="M40.4531 30C40.4531 30.6562 39.9375 31.1719 39.3281 31.1719H23.3906L29.625 37.0781C30.0938 37.5 30.0938 38.25 29.6719 38.6719C29.25 39.1406 28.5469 39.1406 28.0781 38.7188L19.8281 30.8438C19.5938 30.6094 19.5 30.3281 19.5 30C19.5 29.7188 19.5938 29.4375 19.8281 29.2031L28.0781 21.3281C28.5469 20.9062 29.25 20.9062 29.6719 21.375C30.0938 21.7969 30.0938 22.5469 29.625 22.9688L23.3906 28.875H39.3281C39.9844 28.875 40.4531 29.3906 40.4531 30Z"
+                                        fill="#C0C2C9"></path>
+                                </svg>
+                            </button>
+                            <button class="btn-next" aria-label="Avanzar"><svg width="60" height="60"
+                                    viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1" y="1" width="56" height="56" rx="29" stroke="#C0C2C9" stroke-width="2">
+                                    </rect>
+                                    <path
+                                        d="M40.4531 30C40.4531 30.6562 39.9375 31.1719 39.3281 31.1719H23.3906L29.625 37.0781C30.0938 37.5 30.0938 38.25 29.6719 38.6719C29.25 39.1406 28.5469 39.1406 28.0781 38.7188L19.8281 30.8438C19.5938 30.6094 19.5 30.3281 19.5 30C19.5 29.7188 19.5938 29.4375 19.8281 29.2031L28.0781 21.3281C28.5469 20.9062 29.25 20.9062 29.6719 21.375C30.0938 21.7969 30.0938 22.5469 29.625 22.9688L23.3906 28.875H39.3281C39.9844 28.875 40.4531 29.3906 40.4531 30Z"
+                                        fill="#C0C2C9"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <h2 class="blind">Pinea 푸터</h2>
+            <div class="img_content">
+                <img src="./assets/images/logo-pinea.svg" alt="푸터 로고">
+            </div>
+            <div class="footer-txt">
+                <div class="left">
+                    <p class="title"><a href="#">Contacto</a></p>
+                    <div class="text-area">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                                <path
+                                    d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                            </svg>
+                        </span>
+                        <p><a href="#">info@pinea.wine</a></p>
+                    </div>
+                    <div class="text-area map">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                            </svg>
+                        </span>
+                        <p><a href="#">Camino de Valdeguzmán s/n<br class="">
+                                C.P. 09314 – Quintanamanvirgo (Burgos), España</a></p>
+                    </div>
+                    <div class="text-area">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                        <p><a href="#">+34 664070887</a></p>
+                    </div>
+                    <div class="text-area">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="middle">
+                    <p><a href="#">Nuestros vinos</a></p>
+                    <p><a href="#">Distribuidores</a></p>
+                    <p><a href="#">Prensa</a></p>
+                </div>
+                <div class="right">
+                    <p><a href="#">Club Pinea</a></p>
+                </div>
+            </div>
+            <div class="txt-wrap">
+                <p class="link-txt">
+                    <a href="#">Política de Privacidad</a> – <a href="#">Política de cookies</a> – <a href="#">Aviso
+                        legal</a>
+                </p>
+                <p class="intro-txt">
+                    © 2023 Pinea – Todos los derechos reservados
+                </p>
+            </div>
+        </footer>
+        <aside class="info-bar">
+            <div class="info-wrap">
+                <p>
+                    Utilizamos cookies para ofrecerte la mejor experiencia en nuestra web.<br class="">
+                    Puedes aprender más sobre qué cookies utilizamos o desactivarlas en los <button
+                        class="setting-btn">ajustes</button>.
+                </p>
+                <ul class="group-info">
+                    <li class="info-brown"><a href="#">Aceptar</a></li>
+                    <li class="info-brown"><a href="#">Rechazar</a></li>
+                    <li class="info-white"><a href="#">Ajustes</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>

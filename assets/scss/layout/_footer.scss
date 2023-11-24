@@ -1,0 +1,109 @@
+.footer {
+    padding: 88px 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    gap: 2rem;
+
+    &::after {
+        background: radial-gradient(41.22% 50.00% at 100.00% 50.03%, #794825 0%, rgba(121, 72, 37, 0.75) 32.33%, rgba(121, 72, 37, 0.00) 100%);
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+    }
+
+    .img_content {
+        margin: 0 auto;
+    }
+
+    .footer-txt {
+        display: flex;
+        justify-content: space-between;
+        gap: .5rem;
+        position: relative;
+        z-index: 1;
+        max-width: 1070px;
+        width: 100%;
+        position: relative;
+
+        .left {
+            flex: 6;
+
+            .title {
+                color: #BC9465;
+                margin-bottom: 16px;
+                font-size: 14px;
+            }
+
+            .text-area {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                font-size: 14px;
+
+                &+.text-area {
+                    margin-top: 16px;
+                }
+
+                svg {
+                    width: 20px;
+                    height: 20px;
+                    fill: #BC9465;
+                }
+
+                &.map {
+                    align-items: flex-start;
+                }
+            }
+        }
+
+        .middle {
+            flex: 3;
+
+            p {
+                font-size: 14px;
+                color: #BC9465;
+
+                &+p {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        .right {
+            flex: 3;
+
+            p {
+                font-weight: bold;
+                font-size: 14px;
+                color: #BC9465;
+            }
+        }
+    }
+
+
+    .txt-wrap {
+        position: relative;
+        z-index: 1;
+
+        .link-txt {
+            margin-top: 1rem;
+            font-size: 12px;
+            color: #BC9465;
+            text-align: center;
+        }
+
+        .intro-txt {
+            margin-top: 1rem;
+            font-size: 12px;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}
