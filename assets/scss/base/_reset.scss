@@ -143,3 +143,11 @@ body {
         }
     }
 }
+
+br {
+    &.none {
+        @include m {
+            display: none;
+        }
+    }
+}

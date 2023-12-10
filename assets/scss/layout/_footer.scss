@@ -10,6 +10,11 @@
     overflow-x: hidden !important;
     gap: 2rem;
 
+    @include m {
+        padding: 48px 1rem;
+        min-height: 0;
+    }
+
     &::after {
         background: radial-gradient(41.22% 50.00% at 100.00% 50.03%, #794825 0%, rgba(121, 72, 37, 0.75) 32.33%, rgba(121, 72, 37, 0.00) 100%);
         content: "";
@@ -31,6 +36,10 @@
         max-width: 1070px;
         width: 100%;
         position: relative;
+
+        @include m {
+            flex-direction: column;
+        }
 
         .left {
             flex: 6;
