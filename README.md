@@ -14,10 +14,14 @@
 ### :zap: HTML5
 - HTML5를 시멘틱한 구조와 웹표준 및 웹접근성에 준수하는 마크업으로 작성했습니다.
 ### :zap: SCSS
-- SCSS를 활용하여 디자인하였고, `@mixin`을 이용하여 반응형 웹과 `position` 적용을 더 쉽게 하였습니다.
+- SCSS를 각각의 폴더를 만들어 활용하여 디자인하였고, `@mixin`을 이용하여 반응형 웹 적용을 더 쉽게 하였습니다.
+- 버튼 Hover 시에 애니메이션 효과를 주도록 작성하였습니다.
 ### :zap: JavaScript, jquery
--
+- header 왼쪽 부분 버튼을 클릭시 메뉴 목록이 나오도록 작성하였습니다.
 ### :zap: Swiper
-- 
+- 'inner5', 'inner8' 부분을 swiper를 사용하여 작성하였습니다.
 ### :zap: GSAP
-- 
+- 'GSAP'을 이용하여 여러 html 태그에 'data-parallax-y', 'data-parallax-x'를 넣은 다음 foreach 반복문을 사용하여 가로와 세로로 이동하도록 작성하였습니다.
+- 'inner6'를 스크롤할 때 'onUpdate'를 사용하여 4부분으로 나눠서 html 태그가 나타나도록 수정하였습니다.
+### :zap: Lenis
+- 'lenis'를 사용하여 스크롤을 할 때, 부드럽게 스크롤 되도록 작성하였습니다.
